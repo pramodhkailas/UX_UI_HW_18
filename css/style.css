@@ -29,6 +29,7 @@ body {
 #About_buttons {
  
   display: flex;
+
 }
 
 #readmore {
@@ -78,10 +79,6 @@ body {
   border-color: blue;
   border-style: dotted;
   border-width: 1px;
-
-}
-
-.hero {
   width: 100%;
 }
 
@@ -155,6 +152,9 @@ body {
   background-color: #ffffff;
   border: #00A651;
 }
+.Flex_frame h1{
+   color:#00A651; /* Green */
+ }
 #Case_study_brief{
   width: 55%;
   background-color: #2E3192; /* Blue */
@@ -182,11 +182,18 @@ h1{
   background-color: #ffffff;
 }
 #blueright {
-padding:30px;
-  flex: 10%;
+  margin: 0;
+  top: 90%;
+  left: 50%;
+  width:10%;
   background-color: #2E3192; /* Blue */
   border-radius: 0px 17px 17px 0px ;
 }
+.viewall{
+text-align: center;
+
+}
+
 /*  Case Study starts*/
 
 .clientspeaks{
@@ -198,6 +205,31 @@ padding:30px;
   padding:20px;
   margin:auto;
   margin-bottom: 20px;
-  color:C4C4C4;
+  color:#B6B6B6;
+}
+.client_name{
+  color:#F15A29;
+  text-align: left;
+  width: 700px;
+  display:block;
+  position:relative;
 
+}
+.linespacing{
+  line-height: 10%;
+  padding-left:50%;
+}
+a:hover{
+color:#F15A29;
+text-decoration-style: dotted;
+}
+
+a:link{
+  color:white;
+text-decoration-style: dotted;
+
+}
+a:visited{
+  color:white;
+  text-decoration-style: dotted;
 }
