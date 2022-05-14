@@ -185,27 +185,36 @@ works1 {
   grid-area: works1;
 padding-top:20px;
 border: 1px solid lightgrey;
+border-radius: 10px 10px 10px 10px;
+ 
 padding:10px;
-
-
 }
-
+works1 li{
+  color: gray;
+}
 works2 {
 
   grid-area: works2;
   padding-top:20px;
   border: 1px solid lightgrey;
-padding:10px;
+  border-radius: 10px 10px 10px 10px;
+  padding:10px;
+  
 }
-
+works2 li{
+  color: gray;
+}
 works3 {
   grid-area: works3;
   padding-top:30px;
   border: 1px solid lightgrey;
-padding:10px;
-
+  border-radius: 10px 10px 10px 10px;
+ 
+  padding:10px;
 }
-
+works3 li{
+  color: gray;
+}
 worksimg1 {
   grid-area: worksimg1;
 
@@ -225,7 +234,7 @@ worksimg3 {
 }
 .projname{
   font-weight: bold;
-  color: #2E3192;
+  color: #000;
 }
 footer {
   grid-area: footer;
